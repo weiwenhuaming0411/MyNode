@@ -8,11 +8,11 @@
             (__dirname + '/text.js')
         __filename  // 当前文件的绝对路径
 
-    ## 常用配置
+### npm常用配置
         -v  查看版本号
         -g  全局安装
-        --save  默认值,依赖写入package.json → dependencies  注: 适合生产环境需要的包
-        --save-dev/-D  开发环境依赖,依赖写入package.json → devDependencies  注: 适合在开发环境的包
+        --save/-s  默认值,生产环境依赖  依赖写入package.json → dependencies
+        --save-dev/-D  开发环境依赖  依赖写入package.json → devDependencies
         
     ## 常用指令
         npm init -y  // 初始化package.json
@@ -20,21 +20,11 @@
         npm i <name>@versions  // 下载包以及指定包版本
         npm uninstall|remove|rm|r|un <name>  //删除
         npm update|up <name> --save  // 更新包,注: save为false.
+
         npm ls  // 查看所有已安装包
         npm list <name>  // 查询某个模块版本号
         npm view <name> versions  // 查看包的所有版本
         npm cache clean --force  // 清除缓存
-
-    ## 全局
-        npm list -g  // 查询全局包
-        npm root -g  // 查看全局安装包位置
-
-    ## 命令
-        npm help  可查看所有命令
-        npm help <command>  // 可查看某条命令的详细帮助，例如npm help install
-
-        npm config set registry https://registry.npmmirror.com/  // 设置npm命令服务器源
-        npm config get registry  // 获取npm命令服务器源
 
     ## 项目
         npm run serve/npm start  // 启动
@@ -51,29 +41,36 @@
         npm get registry  // 查看当下镜像源
         npm config list  // 查看当下镜像源npm
 
-    ## nvm  nodejs版本管理工具
-        https://github.com/coreybutler/nvm-windows/releases 
-            nvm-setup.exe
+    ## 全局
+        npm list -g  // 查询全局包
+        npm root -g  // 查看全局安装包位置
 
-        nvm list available  显示所有可下载的nodejs版本
-        nvm list 显示已安装版本
-        nvm install 1.1.1  安装某个版本
-        nvm install latest  安装最新版本nodejs
-        nvm uninstall 1.1.1  删除某个版本nodejs
-        nvm use 1.1.1 切换某个版本nodejs
-    
-    ## yarn
-        npm i -g yarn
-        yarn init
-        yarn add 包名
-        yarn 下载package.json依赖
+    ## 命令
+        npm help  可查看所有命令
+        npm help <command>  // 可查看某条命令的详细帮助，例如npm help install
 
-    ## 安装依赖报错
-        通过https://www.ipaddress.com/ 网查询raw.githubusercontent.com使用的ip地址
-            raw.githubusercontent.com
-        修改HOSTS文件
-        C:\Windows\System32\drivers\etc\hosts
-             199.232.28.133 raw.githubusercontent.com
+        npm config set registry https://registry.npmmirror.com/  // 设置npm命令服务器源
+        npm config get registry  // 获取npm命令服务器源
+
+### pnpm(高性能的npm，优化了npm和yarn的潜在bug)
+    npm i -g pnpm
+
+### yarn
+    npm i -g yarn
+    yarn init
+    yarn add 包名
+    yarn 下载package.json依赖
+
+### nvm  nodejs版本管理工具
+    https://github.com/coreybutler/nvm-windows/releases 
+        nvm-setup.exe
+
+    nvm list available  显示所有可下载的nodejs版本
+    nvm list 显示已安装版本
+    nvm install 1.1.1  安装某个版本
+    nvm install latest  安装最新版本nodejs
+    nvm uninstall 1.1.1  删除某个版本nodejs
+    nvm use 1.1.1 切换某个版本nodejs
 
 ## Buffer缓冲区
     在v6.0之前创建Buffer对象直接使用new Buffer()构造函数来创建对象实例，但是Buffer对内存的权限操作相比很大，可以直接捕获一些敏感信息，所以在v6.0以后，官方文档里面建议使用 Buffer.from() 接口去创建Buffer对象。

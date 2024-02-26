@@ -774,36 +774,6 @@
             ]
         }
 
-    // .eslintrc.js:
-        module.exports = {
-            root: true,
-            // 继承其他规则
-            extends: [
-                "plugin:vue/vue3-essential",  // vue3规则  npm i eslint-plugin-vue -D
-                "eslint:recommended",  // eslint官方规则
-            ],
-            parser: "@babel/eslint-parser",  // 支持最新的ECMAScript标准
-            env: {
-                browser: true,  // 浏览器全局变量
-                node: true,  // nodejs全局变量
-                es6: true,  // 启用es6新特性
-            },
-            // 解析选项
-            parserOptions: {
-                ecmaVersion: 6, // ES语法版本
-                sourceType: "module", // ES模块化
-            },
-            // 具体检查规则
-            rules: {
-                "no-var": 1
-            },
-            plugins: ["import"],  // 动态导入import
-            ignorePatterns: [
-                "dist",
-                "node_modules"
-            ]
-        }
-
     // babel.config.js:
         npm i @vue/cli-plugin-babel -D
         module.exports = {

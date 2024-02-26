@@ -105,53 +105,6 @@
     provide('name', data)  // 祖组件, data:值/函数
     let name = inject('name', default)  // 孙组件, default:默认值
 
-### pinia数据集中式管理(全能)
-    npm i pinia
-
-    main.js:
-        import {createPinia} from 'pinia'
-        const pinia = createPinia()
-        app.use(pinia)
-
-    store/count.ts:
-        import {defineStore} from 'pinia'
-        组合式
-        // export default defineStore('count',()=>{
-            const sum = reactive({})
-            return {}
-        })
-        export default defineStore('count',{
-            actions:{
-                add(){
-                    this.sum+=
-                }// countStore.add()
-            },
-            state(){
-                return {
-                    sum:0
-                }    
-            },
-            getters:{
-                bigSum(state){
-                    return state.sum += 10
-                }
-            }
-        })
-
-        import {storeToRefs} from 'pinia'  // 只会转换数据
-        import {useCountStore} from 'path'
-        const countStore = useCountStore()
-
-    修改数据:
-        countStore.$patch({
-            sum: 666
-        })
-
-    $subscribe: (订阅)
-        contStore.$subscribe((mutate, state)=>{
-
-        })
-
 ### 插槽(父子结构通信)
     默认插槽
         父组件：
@@ -459,6 +412,54 @@
     active-calss可配置高亮样式
         <router-link active-calss="active" to=""></router-link>
         <style>.active{color: pink;}</style>
+
+## pinia数据集中式管理(全能)
+    npm i pinia
+
+    main.js:
+        import {createPinia} from 'pinia'
+        const pinia = createPinia()
+        app.use(pinia)
+
+    store/count.ts:
+        import {defineStore} from 'pinia'
+        组合式
+        // export default defineStore('count',()=>{
+            const sum = reactive({})
+            return {}
+        })
+        export default defineStore('count',{
+            actions:{
+                add(){
+                    this.sum+=
+                }// countStore.add()
+            },
+            state(){
+                return {
+                    sum:0
+                }    
+            },
+            getters:{
+                bigSum(state){
+                    return state.sum += 10
+                }
+            }
+        })
+
+        import {storeToRefs} from 'pinia'  // 只会转换数据
+        import {useCountStore} from 'path'
+        const countStore = useCountStore()
+
+    修改数据:
+        countStore.$patch({
+            sum: 666
+        })
+
+    $subscribe: (订阅)
+        contStore.$subscribe((mutate, state)=>{
+
+        })
+
 
 ## 原理
 

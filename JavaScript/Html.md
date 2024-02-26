@@ -1,6 +1,3 @@
-## HTML
-    超文本标记语言: HyperText Markup Language
-
 ### 标签:
     <base>  // 定义页面中所有链接默认的链接目标地址
     // 描述HTML文档的描述，关键词，作者，字符集等

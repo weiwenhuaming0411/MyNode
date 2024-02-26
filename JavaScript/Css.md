@@ -7,7 +7,25 @@
     优先级
         内联样式 > 内部样式 > 外部样式 > 默认样式
 
-    <!-- 导航栏|下拉菜单|提示工具 -->
+    初始化配置
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul, ol, li{
+            list-style: none;
+        }
+        a, a:active, a:hover, a:link{
+            text-decoration: none;
+        }
+        input, button, select, textarea{
+            outline: none;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
 
 ### css函数：
     https://www.runoob.com/cssref/css-functions.html
@@ -1329,3 +1347,5 @@
 
             }
         }
+
+## Stylus

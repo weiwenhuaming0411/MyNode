@@ -1,35 +1,34 @@
 ## Git
     git init  // 初始化仓库
-
     git clone git@github.com:xiannaipaofu/JavaScript.git  // 克隆远程仓库
 
     # 个人信息配置: 
         git config --list  // 显示当前git配置信息
-
-        git config --global user.name "MacBook Pro"  // 设置提交代码时的用户信息/修改
-        git config --global user.email "1367682868@qq.com"  // 设置提交代码时的用户信息/修改
-
-        获取SSH  ssh-keygen -t rsa   enter>>>  // 配置SSH
+        git config --global user.name "MacBook Pro M3"  // 设置提交代码时的用户信息/修改
+        git config --global user.email "ic_lushengjin@icloud.com"  // 设置提交代码时的用户信息/修改
+        获取SSH  ssh-keygen -t rsa   enter>>>  // 配置SSH   
+            id_rsa.pub
 
     # 连接仓库
-        git remote add origin git@github.com:xiannaipaofu/Note.git  // 配置远程连接为origin
+        git remote add origin  git@github.com:biezaiwanshui/Web_Notes.git  // 配置远程连接为origin
         git remote -v  查看远程连接
-        git remote remove hello  删除远程连接
+        git remote remove origin  删除远程连接
         git remote rename old_name new_name  # 修改仓库名
 
     # 拉取代码
-        git pull origin master  // 拉取远程代码与当前分支合并
+        git pull origin main  // 拉取远程代码与当前分支合并
         git pull <远程主机名> <远程分支名>:<本地分支名>  // 拉取到指定分支
-        git pull origin master --allow-unrelated-histories  // 允许不相关历史提交，并强制合并
-        git fetch origin master:demo  // 拉取远程代码到本地master并创建一个demo分支
+        git pull origin main --allow-unrelated-histories  // 允许不相关历史提交，并强制合并
+        git fetch origin main:demo  // 拉取远程代码到本地main并创建一个demo分支
         
-    # 上传代码
+    # 上传代码 
+        git push origin main
         git push <远程主机名> <本地分支名>:<远程分支名>  // 上传仓库
-        git push -u origin master  // 上传至master分支
+        git push -u origin main  // 上传至main分支
             -u: 简化之后push操作
             -f: 覆盖
         git push --set-upstream origin 本地:远程  // 关联远程仓库上的分支
-        git push origin --delete master  // 删除远程仓库的分支
+        git push origin --delete main  // 删除远程仓库的分支
     
     # 开发操作
         git status  //查看状态

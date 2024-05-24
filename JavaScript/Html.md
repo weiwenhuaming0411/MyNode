@@ -28,7 +28,7 @@
                 text
                 password
                 number
-                radio|checkbox  checked 默认选中
+                radio|checkbox  checked 获取选装状态
                 file上传文件  accept='audio|video|image' 规定文件类型 multiple 允许上传多个文件
                 image显示图片 src='' alt='' 图像提交文本 width='' height=''
             name=''  元素名称
@@ -510,10 +510,6 @@
         <  &lt;  
         >  &gt;
 
-## XML
-    可扩展标记语言（EXtensible Markup Language）
-    https://www.runoob.com/xml/xml-tutorial.html
-
 ## <!--  -->
 ### HTML
     元素:
@@ -608,20 +604,6 @@
 
 #### 拖放
     https://www.runoob.com/html/html5-draganddrop.html
-
-#### MathML
-    数学标记语言，是一种基于XML（标准通用标记语言的子集）的标准，用来在互联网上书写数学符号和公式的置标语言
-
-#### WebSocket
-    HTML5开始提供的一种在单个 TCP 连接上进行全双工通讯的协议(Ajax)
-
-#### SSE服务器发送事件(Server-Sent Events)
-    Server-Sent 事件指的是网页自动获取来自服务器的更新
-
-#### Web Workers
-    web worker 是运行在后台的 JavaScript，不会影响页面的性能
-
-#### Web SQL 数据库
 
 
     

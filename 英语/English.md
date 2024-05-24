@@ -60,118 +60,22 @@
         [n] → n  nose  鼻子
         [ŋ]  uncle  叔叔
 
-## 音节
-    单音节:
-        Aa  [eɪ]        Hh  [eɪtʃ]      Oo  [əʊ]        Vv  [vi:]
-        Bb  [bi:]       Ii  [aɪ]        Pp  [pi:]       Ww  [dʌblju:]
-        Cc  [si:]       Jj  [dʒeɪ]      Qq  [kju:]      Xx  [eks]
-        Dd  [di:]       Kk  [keɪ]       Rr  [ɑː]        Yy  [waɪ]
-        Ee  [i:]        Ll  [el]        Ss  [es]        Zz  [zi:]
-        Ff  [ef]        Mm  [em]        Tt  [ti:]
-        Gg  [dʒi:]      Nn  [en]        Uu  [ju:]
-
-    多音节：
-        单归后
-        双分手
-        三一二
-
-    开音节:
-        绝对开音节:  元音字母后面没有辅音字母
-        相对开音节:  元音字母后带有一个辅音字母(除r之外),以及一个不发音的e构成的音节
-
-    闭音节:  元音字母后由辅音结尾(除r)构成的音节。
-
-### 元音发音：
-        重读音节：
-            重读开音节：(发字母本音)
-                a  [eɪ]
-                e  [i:]
-                i  [aɪ]
-                o  [əʊ]
-                u  [ju:]
-
-                注：在开音节中，元音字母u在辅音字母j,l,r,s后面时读[u:]音。例如：June，blue，ruler，issue
-
-            重读闭音节:
-                a   [æ]
-                e   [e]
-                i   [ɪ]
-                o   [ɒ]
-                u   [ʌ]
-
-        非重读音节：
-            a   [ə]
-                [ɪ]
-            e   [ə]
-                [ɪ]
-            i   [ə]/[ɪ]
-                [aɪ]
-            o   [ə]
-                [əʊ]
-            u   [ə]
-                [ju:]
-
 ### 辅音发音
-        a
-        b   [b]  bag  背包
-            [/]  bomb  炸弹
-        c   :在e,i,y,o等前
-            [k]  music  音乐
-            [s]  face  脸
-        ch  [tʃ]  teacher  教师
-            [k]  school  学校
-            [ʃ]  machine  机械
-        ck  [k]  black  黑色
         d   [d]  day  一天
         deg [dʒ]  fridge  冰箱
         dr  [dr]  drink  喝,饮
-        e   
         f   [f]  five  五
-        g   :在e,a,y等前
-            [g]  go  去
-            [dʒ]  orange  橙子
-        gh  [f]  enough  充足的
-            [/]  high  高的
-        gu,gue  :在非重读音节中
-            [g]  league  联盟
-            [gw]  luanguage  语言
-        h   [h]  hot  热
-            [/]  hour  小时
-        i
         j   [dʒ]  jeep  吉普
         k   [k]  week  周
-        kn  [n]  know  知道
         l   [l]  milk  牛奶
-        m   [m]  money  钱
-        mn  [m]  column  圆柱
-        n   [n]  not  不
-            [ŋ]  uncle  叔叔
-        o
         p   [p]  pig  猪
-        ph  [f]  photo  照片
         q   [k]  liquid  液体
-        qu  [kw]  quite  相当
         r   [r]  red  红色
         s   [s]  six  六,desk  书桌  :在词首或清辅音前
             [z]  music  音乐  :元音字母间或浊辅音前
-        sc  [sk]  scarlet  猩红色
-            [s]  science  科学
-        sh  [ʃ]  fish  鱼
-        t   [t]  ten  十
-            [ʃ]  station  站  :在弱读字母ia,ie,io前
         tch [tʃ]  watch  监视
-        th  [θ]  thin  薄的
-            [ð]  father  父亲  :在冠词、代词、介词、连词或是在词尾the、ther时
         tr  [tr]  tree  树
-        u
         v   [v]  very  非常
-        w   [w]  week  周
-            [/]  two  二
-        wh  [w]  what  什么
-            [h]  who  谁  :在字母o前
-        x   :在重读元音后
-            [ks]  box  盒子
-            [gz]  example  例子
         y   [j]  yes  是
         z   [z]  zoo  动物园
 
